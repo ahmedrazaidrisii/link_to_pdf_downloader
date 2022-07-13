@@ -11,6 +11,9 @@ Start-Sleep -s 3
 $num++
 }
 
+# Set-ExecutionPolicy Unrestricted {set to A}
+
+
 # code for to get all thel links from the website
 # var links = document.getElementsByTagName('a');
 
