@@ -1,5 +1,5 @@
 $sourceFile = "links.txt" # the source file containing the URLs you want to convert
-$destFolder = "D:\ahmed_react\" # converted PDFs will be saved here. Folder has to exist.
+$destFolder = "" # converted PDFs will be saved here. Folder has to exist.
 $num = 1
 foreach($link in [System.IO.File]::ReadLines($sourceFile))
 {
